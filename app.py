@@ -29,3 +29,6 @@ session = Session(engine)
 #################################################
 app = Flask(__name__)
 
+@app.route('/')
+def welcome():
+    "list all available api routes"
